@@ -104,17 +104,17 @@ flowchart TD
     end
 
     subgraph Server ["Express Server (Fly.io)"]
-        I[/api/weather] --> J[calculatePlantingRisk]
+        I["/api/weather"] --> J[calculatePlantingRisk]
         I --> K[getCropAdvice]
-        L[/api/weather/geo] --> J
-        M[/api/trees/analyze] --> N[multer upload]
-        O[/api/farms] --> P[Firebase Admin]
+        L["/api/weather/geo"] --> J
+        M["/api/trees/analyze"] --> N[multer upload]
+        O["/api/farms"] --> P[Firebase Admin]
         Q[verifyToken middleware] --> P
     end
 
     subgraph External ["External Services"]
         R[WeatherAI API v1]
-        S[Groq AI - Llama 3.1]
+        S[Groq AI Llama 3.1]
         T[Firebase Auth]
         U[Cloud Firestore]
     end
@@ -138,7 +138,6 @@ flowchart TD
 
     V -->|direct call| R
 ```
-
 ---
 
 ## Project Structure
