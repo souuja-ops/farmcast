@@ -1,0 +1,36 @@
+# Build outputs
+client/dist/
+server/dist/
+
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment files
+.env
+*.env
+!.env.example
+
+# Fly.io
+fly.toml
+
+# Firebase service account
+*service-account*.json
+*firebase-adminsdk*.json
+
+# Dependencies
+node_modules/
+dist/
+build/
+.venv/
+__pycache__/
+
+# Logs
+*.log
+
+# OS
+.DS_Storescripts/.venv/
+
+# Local tool / editor files
+.github/copilot-instructions.md
