@@ -10,7 +10,7 @@ FarmCast combines real-time weather forecasting, AI-generated crop advice, and c
 
 | Frontend | API Backend |
 |----------|-------------|
-| [farmcast.vercel.app](https://farmcast.vercel.app) | [farmcast-api.fly.dev](https://farmcast-api.fly.dev) |
+| [farmcast-africa.vercel.app](https://farmcast-africa.vercel.app) | [farmcast-api.fly.dev](https://farmcast-api.fly.dev) |
 
 > **Note:** The backend runs on Fly.io free tier. First request after inactivity may take a few seconds to wake.
 
